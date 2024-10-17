@@ -1,0 +1,163 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Common heading style */
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* General link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Link colors and behaviors */
+a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+a:visited {
+    color: #0056b3;
+}
+
+a[href*="edit"] {
+    background-color: #f0ad4e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+a[href*="edit"]:hover {
+    background-color: #ec971f;
+}
+
+a[href*="delete"] {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+a[href*="delete"]:hover {
+    background-color: #c9302c;
+}
+
+a[href*="new"] {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+
+a[href*="new"]:hover {
+    background-color: #4cae4c;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 30px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+/* Input fields styling */
+form input[type="text"],
+form input[type="submit"] {
+    width: calc(100% - 20px); /* Ensures padding doesn't overflow */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Style for checkbox */
+form input[type="checkbox"] {
+    width: auto;
+    margin-left: 5px;
+}
+
+/* Submit button styling */
+form input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+/* Consistent styling for back links */
+a.back-link {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 0;
+    width: 200px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.back-link:hover {
+    background-color: #0056b3;
+}
